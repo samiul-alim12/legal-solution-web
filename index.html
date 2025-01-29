@@ -330,7 +330,7 @@
             <div class="container mx-auto px-4 py-10">
               <div class="grid md:grid-cols-2 gap-8">
                 <!-- Contact Info Section -->
-                <div class="grid grid-cols-2 bg-gray-100 p-6 ">
+                <div class="grid grid-cols-2 bg-gray-100 p-6 mb-28 ">
                   <!-- Address -->
                   <div class="text-center border-r border-b p-4 ">
                     <div class="flex justify-center mb-2"><img src="images/location.png" alt=""></div>
@@ -358,13 +358,13 @@
                 </div>
             
                 <!-- Contact Form -->
-                <div class="bg-white p-6 rounded-lg shadow-lg">
+                <div>
                   <form>
-                    <input type="text" placeholder="Your Name" class="w-full p-3 mb-4 border rounded-md ">
-                    <input type="email" placeholder="Your Email" class="w-full p-3 mb-4 border rounded-md">
-                    <input type="text" placeholder="Subject" class="w-full p-3 mb-4 border rounded-md ">
-                    <textarea placeholder="Your Message" rows="4" class="w-full p-3 mb-4 border rounded-md"></textarea>
-                    <button class="w-full  text-white py-3 rounded-md ">Send Message</button>
+                    <input type="text" placeholder="Your Name" class="w-full p-3 mb-2 border rounded-md ">
+                    <input type="email" placeholder="Your Email" class="w-full p-3 mb-2 border rounded-md">
+                    <input type="text" placeholder="Subject" class="w-full p-3 mb-2 border rounded-md ">
+                    <textarea placeholder="Your Message" rows="4" class="w-full p-3 mb-2 border rounded-md"></textarea>
+                    <button class="w-full text-white bg-legacy-btn py-3 rounded-md ">Send Message</button>
                   </form>
                 </div>
               </div>
@@ -374,8 +374,52 @@
          </section>
     </main>
     <!-- footer -->
-    <footer>
+      <footer class="footer bg-black text-white p-10">
+        <div class=" w-11/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+          <nav>
+            <div>
+              <img src="images/logo.png" alt="">
+            </div>
+            <p class=" pt-8 text-white">There are many variations of <br> passages of Lorem Ipsum <br>available, but the majority have <br>suffered alteration in some <br> form, by injected humour.</p>
+          </nav>
+          <nav class="flex flex-col gap-3 sm:gap-4">
+            <h6 class=" font-extrabold text-2xl">Usefull Link</h6>
+            <a class="link link-hover">Homes</a>
+            <a class="link link-hover">About Us</a>
+            <a class="link link-hover">Contact Us</a>
+            <a class="link link-hover">Blog</a>
+          </nav>
 
-    </footer>
+          <nav class="flex flex-col gap-3 sm:gap-4">
+            <h6 class="font-extrabold text-2xl">Legal</h6>
+            <p>
+              555 4th 5t NW, Washington
+              DC 20530, United States
+              <br>
+              <br>
+              +88 01750 000 000 <br>
+              +88 01750 000 000
+              <br>
+              <br>
+              info@gmail.com <br>
+              info@gmail.com
+            </p>
+          </nav>
+          <form >
+            <h6 class="font-extrabold text-2xl  pb-4">Subscribe</h6>
+            <p class=" pb-4">Subscribe for our latest & <br> Articles. We Won’t Give You <br> Spam Mails</p>
+            <fieldset class="form-control w-80">
+              
+              <div class="join">
+                <input
+                  type="text"
+                  placeholder="Email Address"
+                  class="input input-bordered join-item" />
+                <button class="btn btn-primary rounded-md"><i class="fa-brands fa-telegram bg-transparent"></i></button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </footer>
 </body>
 </html>
